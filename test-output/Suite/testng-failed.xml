@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="ParallelTest(failed)">
+    <classes>
+      <class name="com.cross.parallel.ParallelTesting">
+        <methods>
+          <include name="report"/>
+          <include name="stopReport"/>
+          <include name="searchTestNG"/>
+          <include name="searchApi"/>
+          <include name="searchSelenium"/>
+        </methods>
+      </class> <!-- com.cross.parallel.ParallelTesting -->
+    </classes>
+  </test> <!-- ParallelTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
